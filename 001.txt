@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! title: 自用规则001
-! Version: 20210506
-! Homepage: 
+! Version: 202105010
+! Homepage: https://github.com/fl53/ublacklist/blob/main/001.txt
 !哔哩哔哩、虎牙、谷歌、优酷、知乎、油管、观察者、微博、奈菲影视、马云、卡饭论坛
 !哔哩哔哩
 ! 2021-03-14 https://www.bilibili.com
