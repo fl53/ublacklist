@@ -1,10 +1,15 @@
-[Adblock Plus 2.0]
-! title: 自用规则001
-! Version: 202105010
+.rank-list[Adblock Plus 2.0]
+! title: 自用规则001--本地
+! Version: 20210801
 ! Homepage: https://github.com/fl53/ublacklist/blob/main/001.txt
-!哔哩哔哩、虎牙、谷歌、优酷、知乎、油管、观察者、微博、奈菲影视、马云、卡饭论坛
+!哔哩哔哩、虎牙、谷歌、优酷、知乎、油管、观察者、微博、奈菲影视、马云、卡饭论坛、百度地图、高德地图
 !哔哩哔哩
 ! 2021-03-14 https://www.bilibili.com
+www.bilibili.com##.bili-banner
+www.bilibili.com##[href="//member.bilibili.com/platform/home"] > .name
+www.bilibili.com##li.nav-link-item:nth-of-type(10) > span > .van-popover__reference.link
+www.bilibili.com##.van-popover__reference.loc-moveclip.link
+www.bilibili.com##li.nav-link-item:nth-of-type(4) > span > .van-popover__reference.link
 www.bilibili.com##li.nav-link-item:nth-of-type(8)
 www.bilibili.com##li.nav-link-item:nth-of-type(7)
 www.bilibili.com##li.nav-link-item:nth-of-type(6)
@@ -15,55 +20,52 @@ www.bilibili.com##.popover-channe.van-popper.van-popover
 www.bilibili.com###reportFirst3
 www.bilibili.com###reportFirst2
 www.bilibili.com##.contact-help
-www.bilibili.com##.t > [href="//t.bilibili.com"]
 www.bilibili.com##.nav-user-center > div > span
-www.bilibili.com##div.item:nth-of-type(7)
 www.bilibili.com###internationalHeader > .b-wrap
 www.bilibili.com##.b-wrap.b-logo
 www.bilibili.com##.van-popover__reference.mini-vip
 www.bilibili.com##.report-scroll-module.report-wrap-module.home-slide.focus-carousel
 www.bilibili.com##.rank-list.zone-rank.report-wrap-module.sec-rank
-www.bilibili.com##.elevator
-www.bilibili.com###bili_report_movie > .pgc-rank
-www.bilibili.com###bili_report_teleplay > .pgc-rank
-www.bilibili.com###bili_report_documentary > .pgc-rank
-www.bilibili.com###bili_report_cinephile > .rank-list
-www.bilibili.com###bili_report_music > .rank-list
-www.bilibili.com###bili_report_technology > .rank-list
-www.bilibili.com###bili_information > .report-scroll-module.report-wrap-module.space-between
-www.bilibili.com###bili_ent > .report-scroll-module.report-wrap-module.space-between
-www.bilibili.com###bili_live > .report-scroll-module.report-wrap-module.space-between
 www.bilibili.com###bili_cheese
-www.bilibili.com###bili_report_dance > .rank-list
-www.bilibili.com###bili_report_life > .rank-list
 www.bilibili.com###bili_manga
-www.bilibili.com###bili_report_anime > div.space-between
 www.bilibili.com###bili_kichiku
-www.bilibili.com###bili_report_fashion > .rank-list
-www.bilibili.com###bili_report_animal > .rank-list
 www.bilibili.com###bili_guochuang
-www.bilibili.com###bili_food
 www.bilibili.com###bili_digital
 www.bilibili.com###bili_douga
 www.bilibili.com###bili_game
-www.bilibili.com##.report-scroll-module.report-wrap-module.b-wrap.s-rec.space-between
-www.bilibili.com##.international-footer
-www.bilibili.com##.num
 www.bilibili.com###bili_teleplay
 www.bilibili.com###bili_cinephile
-www.bilibili.com###bili_life
+www.bilibili.com###bili_fashion
+www.bilibili.com###bili_read
+www.bilibili.com###bili_report_movie > .pgc-rank
+www.bilibili.com###bili_report_teleplay > .pgc-rank
+www.bilibili.com###bili_report_documentary > .pgc-rank
+www.bilibili.com###bili_ent > .report-scroll-module.report-wrap-module.space-between
+www.bilibili.com###bili_live > .report-scroll-module.report-wrap-module.space-between
+www.bilibili.com##.report-scroll-module.report-wrap-module.b-wrap.s-rec.space-between
+www.bilibili.com###bili_car > .report-scroll-module.report-wrap-module.space-between
+www.bilibili.com##.ifmt
+www.bilibili.com###bili_report_cinephile > .rank-list
+www.bilibili.com###bili_report_technology > .rank-list
+www.bilibili.com###bili_report_dance > .rank-list
+www.bilibili.com###bili_report_life > .rank-list
+www.bilibili.com###bili_report_sports > .rank-list
+www.bilibili.com###bili_report_food > .rank-list
+www.bilibili.com###bili_report_music > .rank-list
+www.bilibili.com###bili_report_anime > div.space-between
+www.bilibili.com###bili_report_fashion > .rank-list
+www.bilibili.com###bili_report_animal > .rank-list
+www.bilibili.com###bili_report_knowledge > .rank-list
+www.bilibili.com###bili_report_tech > .rank-list
+www.bilibili.com##.international-footer
+www.bilibili.com##.num
 www.bilibili.com##.report-scroll-module.report-wrap-module.s_tag
 www.bilibili.com##.act-end.report-scroll-module.report-wrap-module.activity-m
 www.bilibili.com##.report-scroll-module.report-wrap-module.pop-live
 www.bilibili.com##.report-scroll-module.report-wrap-module.ad-floor.ad-report
 www.bilibili.com##.float-nav
-www.bilibili.com###bili_fashion
-www.bilibili.com###bili_read
-www.bilibili.com###bili_music
 www.bilibili.com##.inside-wrp
 www.bilibili.com##.banner-link
-www.bilibili.com###bili_car > .report-scroll-module.report-wrap-module.space-between
-www.bilibili.com##.i-frame
 www.bilibili.com##.report-wrap-module.pay-bar
 message.bilibili.com##.num
 message.bilibili.com##.nav-link
@@ -78,8 +80,27 @@ search.bilibili.com##.international-footer
 search.bilibili.com##._th_times
 search.bilibili.com##.home-tips
 search.bilibili.com##.hotword-wrap
+www.bilibili.com##.num
+www.bilibili.com##.nav-tools
+www.bilibili.com##li.nav-link-item:nth-of-type(9)
+www.bilibili.com##.media-info-btns
+www.bilibili.com##.video-page-special-card
 ||i0.hdslb.com/bfs/feed-admin/*.png$image
 ||i0.hdslb.com/bfs/vc/*.png$image
+www.bilibili.com##div.sortable.item:nth-of-type(12)
+www.bilibili.com##div.sortable.item:nth-of-type(13)
+www.bilibili.com##div.sortable.item:nth-of-type(14)
+www.bilibili.com##div.sortable.item:nth-of-type(15)
+www.bilibili.com##div.sortable.item:nth-of-type(16)
+www.bilibili.com##div.sortable.item:nth-of-type(17)
+www.bilibili.com##div.sortable.item:nth-of-type(18)
+www.bilibili.com##div.sortable.item:nth-of-type(19)
+www.bilibili.com##div.sortable.item:nth-of-type(20)
+www.bilibili.com##div.sortable.item:nth-of-type(21)
+www.bilibili.com##div.sortable.item:nth-of-type(22)
+www.bilibili.com##div.sortable.item:nth-of-type(24)
+www.bilibili.com##div.sortable.item:nth-of-type(25)
+www.bilibili.com##div.sortable.item:nth-of-type(23)
 !虎牙
 ! 2021-03-16 https://www.huya.com
 www.huya.com##.duya-header-nav
@@ -155,6 +176,8 @@ www.zhihu.com##input.Input::-webkit-input-placeholder:style(color: transparent !
 !观察者
 ! 2021-04-01 https://www.guancha.cn
 !--------------首页开始---------------
+!首页临时背景
+||i.guancha.cn/jd100ph.jpg$image
 !首页--头
 www.guancha.cn##.header-index-box > [href]
 www.guancha.cn##.content-headline > [href]
@@ -190,6 +213,7 @@ www.guancha.cn##.img-List > li > .module-interact
 www.guancha.cn##.img-List > li > .c_hidden.resemble-art
 www.guancha.cn##.mt15.mod-more
 !首页--右栏--风闻
+www.guancha.cn##.module-hot-point
 www.guancha.cn##.fix.search
 www.guancha.cn##.fengwen-list-img
 www.guancha.cn##.fengwen-list > li > .module-interact
@@ -199,6 +223,8 @@ www.guancha.cn##.module-video-list-title
 www.guancha.cn##.module-member
 www.guancha.cn##div.gray.module-news:nth-of-type(11)
 www.guancha.cn##div.gray.module-news:nth-of-type(12)
+www.guancha.cn##div.gray.module-news:nth-of-type(13)
+www.guancha.cn##[href="https://www.guancha.cn/COVID19andworld"]
 !--------------首页结束---------------
 !--------------专栏页（主新闻页）开始---------------
 !专栏页--头 
@@ -236,19 +262,25 @@ www.guancha.cn##.face
 www.guancha.cn##.who-recommend
 !--------------专栏页（主新闻页）结束---------------
 !--------------风闻页开始---------------
-!风闻页--头/尾/右侧
+!风闻主页列表
+user.guancha.cn##.item-content
+user.guancha.cn##.item-pic
+user.guancha.cn##.clearfix.user-info-box.user-box
+user.guancha.cn##.op-tools
+user.guancha.cn##.recommend-logo
+!风闻内页--头/尾/右侧
 user.guancha.cn##.active.top-nav-li
 user.guancha.cn##.footer
 user.guancha.cn##.box-right
 user.guancha.cn##body > .wrapper > .side-bar
-!风闻页--主体
+!风闻内页--主体
 user.guancha.cn##div.hot-topic-nav:nth-of-type(1)
 user.guancha.cn##div.user-info-box.user-box:nth-of-type(2)
 ||i.guancha.cn/bbs/*png?imageView2/2/w/500/format/png$image
 user.guancha.cn##.article-bottom-user.user-info-box.user-box
 user.guancha.cn##.author-article
 user.guancha.cn##.share-box
-!风闻页--评论
+!风闻内页--评论
 user.guancha.cn##.list-hot-body-all.list-body > li.cmt-item.comment-item > div.clearfix > .clearfix.user-box
 user.guancha.cn##.list-hot-body-all.list-body > li.cmt-item.comment-item > .clearfix.cmt-item.comment-box > .cmt-item-main > .quote
 user.guancha.cn##.list-body-all.list-body > li.cmt-item.comment-item > div.clearfix > .clearfix.user-box
@@ -260,6 +292,7 @@ user.guancha.cn##.list-body-all.list-body > li.cmt-item.comment-item > .clearfix
 user.guancha.cn##.list-hot-body-all.list-body > li.cmt-item.comment-item > div.clearfix > .all-floor
 user.guancha.cn##.list-body-all.list-body > li.cmt-item.comment-item > div.clearfix > .all-floor
 user.guancha.cn##.list-hot-body-all.list-body > li.cmt-item.comment-item > div.clearfix > .who-recommend
+user.guancha.cn##.list-body-all.list-body > li.cmt-item.comment-item > div.clearfix > .who-recommend
 user.guancha.cn##.cmt-desc
 user.guancha.cn##.face
 ||user.guancha.cn/static/imgs/*/*/*.gif$image
@@ -346,7 +379,6 @@ bbs.kafan.cn##.fl_row
 bbs.kafan.cn##.flg.bm > .cl.bm_h
 bbs.kafan.cn##cite
 bbs.kafan.cn##.num
-bbs.kafan.cn##dd:nth-of-type(1)
 bbs.kafan.cn##td.fl_g [href^="https://bbs.kafan.cn/forum.php"]
 bbs.kafan.cn##.xi1.xw0
 bbs.kafan.cn##.cl.bm.ttp
@@ -358,8 +390,6 @@ bbs.kafan.cn##.ptn.hm > span:nth-of-type(1)
 ||fj.kafan.cn/attachment/common/58/common_167_usergroup_icon.png$image
 ||a.kafan.cn/static/image/common/star_level*.gif$image
 ||a.kafan.cn/static/image/common/medal*.gif$image
-bbs.kafan.cn##dt
-bbs.kafan.cn##dd:nth-of-type(2)
 bbs.kafan.cn##.pbg2
 bbs.kafan.cn##.pm2
 bbs.kafan.cn##.plc > .cl > .y
@@ -371,3 +401,13 @@ bbs.kafan.cn##.none
 bbs.kafan.cn##p:nth-of-type(2)
 bbs.kafan.cn###aimg_3197942_menu > .xs0 > p
 bbs.kafan.cn###aimg_3197942_menu
+!百度地图
+map.baidu.com##.has-message
+map.baidu.com###newuilogo
+map.baidu.com##.anchorBL.BMap_noprint.BMap_cpyCtrl
+map.baidu.com##.ui3-suggest-wrap
+map.baidu.com###card-12
+! 高德地图
+ditu.amap.com##.real-height-box.around-box
+ditu.amap.com##.usel.amap-app-download
+ditu.amap.com##.amap-copyright
